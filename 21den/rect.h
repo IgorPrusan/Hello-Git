@@ -6,7 +6,7 @@ using namespace std;
 class Employee {
 public:
 	Employee(string n, unsigned short int age, unsigned short int years, unsigned int salary){
-		this->name = name;
+		this->name = n;
 		this->age = age;
 		this->yearsOfService = years;
 		this->salary = salary;
